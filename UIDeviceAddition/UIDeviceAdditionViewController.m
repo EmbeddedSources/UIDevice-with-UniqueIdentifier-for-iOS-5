@@ -7,7 +7,7 @@
 //
 
 #import "UIDeviceAdditionViewController.h"
-#import "UIDevice+IdentifierAddition.h"
+#import <UIDevice-with-UniqueIdentifier-for-iOS-5/UIDevice+IdentifierAddition.h>
 
 @implementation UIDeviceAdditionViewController
 

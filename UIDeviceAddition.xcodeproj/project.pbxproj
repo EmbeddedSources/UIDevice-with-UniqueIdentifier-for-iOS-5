@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EC6EC9E16EF29DB00147147 /* libDeviceUniqueIdentifier.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC6EC9B16EF29CB00147147 /* libDeviceUniqueIdentifier.a */; };
 		C1E8503213FFA4C300B38510 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E8503113FFA4C300B38510 /* UIKit.framework */; };
 		C1E8503413FFA4C300B38510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E8503313FFA4C300B38510 /* Foundation.framework */; };
 		C1E8503613FFA4C300B38510 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E8503513FFA4C300B38510 /* CoreGraphics.framework */; };
@@ -16,11 +17,27 @@
 		C1E8504513FFA4C300B38510 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E8504313FFA4C300B38510 /* MainWindow.xib */; };
 		C1E8504813FFA4C300B38510 /* UIDeviceAdditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E8504713FFA4C300B38510 /* UIDeviceAdditionViewController.m */; };
 		C1E8504B13FFA4C300B38510 /* UIDeviceAdditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E8504913FFA4C300B38510 /* UIDeviceAdditionViewController.xib */; };
-		C1E8505413FFA51200B38510 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E8505313FFA51200B38510 /* UIDevice+IdentifierAddition.m */; };
-		C1E8506313FFAB5D00B38510 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E8506213FFAB5D00B38510 /* NSString+MD5Addition.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7EC6EC9A16EF29CB00147147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC6EC9616EF29CB00147147 /* DeviceUniqueIdentifier.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E16FC2416EF1F3900031889;
+			remoteInfo = DeviceUniqueIdentifier;
+		};
+		7EC6EC9C16EF29D700147147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC6EC9616EF29CB00147147 /* DeviceUniqueIdentifier.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E16FC2316EF1F3900031889;
+			remoteInfo = DeviceUniqueIdentifier;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7EC6EC9616EF29CB00147147 /* DeviceUniqueIdentifier.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DeviceUniqueIdentifier.xcodeproj; path = DeviceUniqueIdentifier/DeviceUniqueIdentifier.xcodeproj; sourceTree = "<group>"; };
 		C1E8502D13FFA4C300B38510 /* UIDeviceAddition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDeviceAddition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E8503113FFA4C300B38510 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C1E8503313FFA4C300B38510 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,10 +52,6 @@
 		C1E8504613FFA4C300B38510 /* UIDeviceAdditionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDeviceAdditionViewController.h; sourceTree = "<group>"; };
 		C1E8504713FFA4C300B38510 /* UIDeviceAdditionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDeviceAdditionViewController.m; sourceTree = "<group>"; };
 		C1E8504A13FFA4C300B38510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIDeviceAdditionViewController.xib; sourceTree = "<group>"; };
-		C1E8505213FFA51200B38510 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+IdentifierAddition.h"; path = "Classes/UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
-		C1E8505313FFA51200B38510 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+IdentifierAddition.m"; path = "Classes/UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
-		C1E8506113FFAB5D00B38510 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5Addition.h"; path = "Classes/NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		C1E8506213FFAB5D00B38510 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5Addition.m"; path = "Classes/NSString+MD5Addition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC6EC9E16EF29DB00147147 /* libDeviceUniqueIdentifier.a in Frameworks */,
 				C1E8503213FFA4C300B38510 /* UIKit.framework in Frameworks */,
 				C1E8503413FFA4C300B38510 /* Foundation.framework in Frameworks */,
 				C1E8503613FFA4C300B38510 /* CoreGraphics.framework in Frameworks */,
@@ -55,10 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EC6EC9716EF29CB00147147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC6EC9B16EF29CB00147147 /* libDeviceUniqueIdentifier.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C1E8502213FFA4C300B38510 = {
 			isa = PBXGroup;
 			children = (
-				C1E8505113FFA4D300B38510 /* Classes */,
 				C1E8503713FFA4C300B38510 /* UIDeviceAddition */,
 				C1E8503013FFA4C300B38510 /* Frameworks */,
 				C1E8502E13FFA4C300B38510 /* Products */,
@@ -76,6 +97,7 @@
 		C1E8503013FFA4C300B38510 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EC6EC9616EF29CB00147147 /* DeviceUniqueIdentifier.xcodeproj */,
 				C1E8503113FFA4C300B38510 /* UIKit.framework */,
 				C1E8503313FFA4C300B38510 /* Foundation.framework */,
 				C1E8503513FFA4C300B38510 /* CoreGraphics.framework */,
@@ -108,17 +130,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C1E8505113FFA4D300B38510 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C1E8505213FFA51200B38510 /* UIDevice+IdentifierAddition.h */,
-				C1E8505313FFA51200B38510 /* UIDevice+IdentifierAddition.m */,
-				C1E8506113FFAB5D00B38510 /* NSString+MD5Addition.h */,
-				C1E8506213FFAB5D00B38510 /* NSString+MD5Addition.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +144,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7EC6EC9D16EF29D700147147 /* PBXTargetDependency */,
 			);
 			name = UIDeviceAddition;
 			productName = UIDeviceAddition;
@@ -158,12 +170,28 @@
 			mainGroup = C1E8502213FFA4C300B38510;
 			productRefGroup = C1E8502E13FFA4C300B38510 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7EC6EC9716EF29CB00147147 /* Products */;
+					ProjectRef = 7EC6EC9616EF29CB00147147 /* DeviceUniqueIdentifier.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C1E8502C13FFA4C300B38510 /* UIDeviceAddition */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7EC6EC9B16EF29CB00147147 /* libDeviceUniqueIdentifier.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDeviceUniqueIdentifier.a;
+			remoteRef = 7EC6EC9A16EF29CB00147147 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C1E8502B13FFA4C300B38510 /* Resources */ = {
@@ -186,12 +214,18 @@
 				C1E8503F13FFA4C300B38510 /* main.m in Sources */,
 				C1E8504213FFA4C300B38510 /* UIDeviceAdditionAppDelegate.m in Sources */,
 				C1E8504813FFA4C300B38510 /* UIDeviceAdditionViewController.m in Sources */,
-				C1E8505413FFA51200B38510 /* UIDevice+IdentifierAddition.m in Sources */,
-				C1E8506313FFAB5D00B38510 /* NSString+MD5Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EC6EC9D16EF29D700147147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceUniqueIdentifier;
+			targetProxy = 7EC6EC9C16EF29D700147147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C1E8503A13FFA4C300B38510 /* InfoPlist.strings */ = {
@@ -230,9 +264,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
@@ -244,9 +279,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
