@@ -51,8 +51,10 @@
 
     std::vector<unsigned char> bufGuard;
 
+    unsigned int en0Index = if_nametoindex("en0");
+    mib[5] = static_cast<unsigned char>( en0Index );
     
-    if ((mib[5] = if_nametoindex("en0")) == 0)
+    if ( 0 == en0Index )
     {
         NSLog(@"Error: if_nametoindex error\n");
         return nil;
