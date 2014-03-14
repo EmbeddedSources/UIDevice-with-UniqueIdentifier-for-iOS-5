@@ -10,6 +10,7 @@
 		7E16FC2816EF1F3900031889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E16FC2716EF1F3900031889 /* Foundation.framework */; };
 		7E16FC3A16EF1F5A00031889 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E16FC3716EF1F5A00031889 /* NSString+MD5Addition.m */; };
 		7E16FC3B16EF1F5A00031889 /* UIDevice+IdentifierAddition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E16FC3916EF1F5A00031889 /* UIDevice+IdentifierAddition.mm */; };
+		7EC48FA418D34D0F00D87566 /* DeviceIdentifierAdditionImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7EC48FA318D34D0F00D87566 /* DeviceIdentifierAdditionImpl.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		7E16FC3716EF1F5A00031889 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		7E16FC3816EF1F5A00031889 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
 		7E16FC3916EF1F5A00031889 /* UIDevice+IdentifierAddition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIDevice+IdentifierAddition.mm"; sourceTree = "<group>"; };
+		7EC48FA218D34D0F00D87566 /* DeviceIdentifierAdditionImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIdentifierAdditionImpl.h; sourceTree = "<group>"; };
+		7EC48FA318D34D0F00D87566 /* DeviceIdentifierAdditionImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceIdentifierAdditionImpl.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				7E16FC3716EF1F5A00031889 /* NSString+MD5Addition.m */,
 				7E16FC3816EF1F5A00031889 /* UIDevice+IdentifierAddition.h */,
 				7E16FC3916EF1F5A00031889 /* UIDevice+IdentifierAddition.mm */,
+				7EC48FA218D34D0F00D87566 /* DeviceIdentifierAdditionImpl.h */,
+				7EC48FA318D34D0F00D87566 /* DeviceIdentifierAdditionImpl.mm */,
 			);
 			name = "UIDevice-with-UniqueIdentifier-for-iOS-5";
 			path = "../UIDevice-with-UniqueIdentifier-for-iOS-5";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC48FA418D34D0F00D87566 /* DeviceIdentifierAdditionImpl.mm in Sources */,
 				7E16FC3A16EF1F5A00031889 /* NSString+MD5Addition.m in Sources */,
 				7E16FC3B16EF1F5A00031889 /* UIDevice+IdentifierAddition.mm in Sources */,
 			);
